@@ -1,26 +1,20 @@
 import './App.css';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Menu from "../Menu";
+import HomePage from "../HomePage";
+import Join from "../Join";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Menu/>
         <Switch>
           <Route exact path={"/"}>
-            home
-            <div className="uk-child-width-expand@s uk-text-center" uk-grid={""}>
-              <div>
-                <div className="uk-card uk-card-default uk-card-body">Item</div>
-              </div>
-              <div>
-                <div className="uk-card uk-card-default uk-card-body">Item</div>
-              </div>
-            </div>
+            <Menu/>
+            <HomePage/>
           </Route>
           <Route exact path="/join">
-            join
+            <Join/>
           </Route>
           <Route path={"*"}>
             notfound

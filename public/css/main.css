@@ -2771,9 +2771,6 @@ select.uk-form-width-xsmall {
 .uk-leader-fill-content::before {
   content:'.'
 }
-:root {
-  --uk-leader-fill-content:.
-}
 .uk-notification {
   position:fixed;
   top:10px;
@@ -4073,7 +4070,6 @@ ul.uk-nav-sub {
 }
 .uk-animation-stroke {
   animation-name:uk-stroke;
-  stroke-dasharray:var(--uk-animation-stroke);
   animation-duration:2s
 }
 .uk-animation-reverse {
@@ -4283,7 +4279,7 @@ ul.uk-nav-sub {
 }
 @keyframes uk-stroke {
   0% {
-    stroke-dashoffset:var(--uk-animation-stroke)
+
   }
   100% {
     stroke-dashoffset:0
@@ -9857,7 +9853,6 @@ html {
 .tm-h4,
 .tm-h5,
 .tm-h6 {
-  font-family:Montserrat;
   font-weight:600;
   text-transform:uppercase;
   letter-spacing:2px;
