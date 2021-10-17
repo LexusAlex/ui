@@ -14,7 +14,9 @@ function Menu () {
         </ul>
 
         <div className="col-md-3 text-end">
-          <a href={"/join"} className="btn btn-outline-dark me-2">Join to us</a>
+          <a href={"/join"} className="btn btn-outline-dark me-2">
+            <i className="bi bi-person-plus"/>
+            Join to us</a>
           <a href={""} className="btn btn-dark">Sign-up</a>
         </div>
       </header>

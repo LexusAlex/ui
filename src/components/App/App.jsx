@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Menu from "../Menu";
 import HomePage from "../HomePage";
 import Join from "../Join";
+import Footer from "../Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route exact path={"/"}>
             <Menu/>
             <HomePage/>
+            <Footer/>
           </Route>
           <Route exact path="/join">
             <Join/>

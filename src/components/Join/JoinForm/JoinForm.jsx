@@ -13,12 +13,12 @@ function JoinForm() {
       </div>
       <div className="checkbox mb-3">
         <label>
-          <input type="checkbox" value="remember-me"/> Remember me
+          <input type="checkbox" value="agree" required/>
+          I agree with privacy policy
         </label>
       </div>
-      <button className="w-100 btn btn-lg btn-dark" type="submit">Sign up</button>
+      <button className="w-100 btn btn-lg btn-dark" type="submit">Join to Us</button>
       <hr className="my-4"/>
-      <small className="text-muted">By clicking Sign up, you agree to the terms of use.</small>
     </form>
   )
 }
